@@ -7,8 +7,6 @@ def line(array)
   
   new_array = []
   
-
-  
   if array.length > 0
 
     for i in (0...array.length) do
@@ -20,3 +18,5 @@ def line(array)
   end
 
 end
+
+def take_a_number
