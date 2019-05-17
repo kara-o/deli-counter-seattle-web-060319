@@ -7,8 +7,16 @@ def line(array)
   
   new_array = []
   
-  for i in (0..array.length)
-    new_array << array[i]
-    
 
-    
+  
+  if array.length > 0
+
+    for i in (0...array.length) do
+      new_array << "#{i + 1}. #{array[i]}"
+    end 
+  
+  puts "The line is currently: " + new_array.join(" , ")
+
+  end
+
+end
